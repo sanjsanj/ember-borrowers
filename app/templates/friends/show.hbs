@@ -1,6 +1,9 @@
+{{link-to 'Back' 'friends'}}<br />
+
 <ul>
   <li>First Name: {{model.firstName}}</li>
   <li>Last Name: {{model.lastName}}</li>
   <li>Email: {{model.email}}</li>
   <li>Twitter: {{model.twitter}}</li>
+  <li>{{link-to 'Edit info' 'friends.edit' model}}</li>
 </ul>
