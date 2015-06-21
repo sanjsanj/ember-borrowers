@@ -7,6 +7,12 @@ export default Ember.Route.extend({
     },
     cancel: function(){
       return true;
+    },
+    delete: function(friend){
+      var _this = this;
+      friend.destroyRecord().then(function(){
+        _this.transitionToRoute('friends.index');
+      });
     }
   }
 });
