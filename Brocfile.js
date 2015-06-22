@@ -32,4 +32,25 @@ app.import('vendor/fontello/font/fontello.woff', { destDir: 'font'
 
 app.import('bower_components/moment/moment.js');
 
+app.import('bower_components/ic-ajax/dist/named-amd/main.js', {
+  exports: {
+    'ic-ajax': [
+      'default',
+      'defineFixture',
+      'lookupFixture',
+      'raw',
+      'request',
+    ]
+  }
+});
+
+app.import('bower_components/borrowers-dates/index.js', {
+  exports: {
+    'borrowers-dates': [
+      'format'
+    ]
+  }
+});
+
+
 module.exports = app.toTree();
