@@ -1,0 +1,9 @@
+<td>{{article.description}}</td>
+<td>{{article.notes}}</td>
+<td>{{article.createdAt}}</td>
+<td>{{view "select" content=articleStates}}</td>
+<td>
+  {{#if article.isSaving}}
+    <p>Saving ...</p>
+  {{/if}}
+</td>
