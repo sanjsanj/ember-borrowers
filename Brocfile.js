@@ -30,8 +30,6 @@ app.import('vendor/fontello/font/fontello.eot', { destDir: 'font'
 app.import('vendor/fontello/font/fontello.woff', { destDir: 'font'
 });
 
-app.import('bower_components/moment/moment.js');
-
 app.import('bower_components/ic-ajax/dist/named-amd/main.js', {
   exports: {
     'ic-ajax': [
@@ -52,5 +50,6 @@ app.import('bower_components/borrowers-dates/index.js', {
   }
 });
 
+app.import('bower_components/moment/moment.js');
 
 module.exports = app.toTree();
