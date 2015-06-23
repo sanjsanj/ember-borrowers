@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-  queryParams: ['sortBy', 'sortAscending'],
-  sortAscending: true,
+  queryParams: ['sortBy', 'sortDescending'],
+  sortDescending: true,
   sortBy: 'firstName',
   actions: {
     setSortBy: function(fieldName){

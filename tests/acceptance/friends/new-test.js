@@ -24,8 +24,7 @@ test('visiting /friends/new', function(assert) {
 
 test('creating a new friend', function(assert){
   visit('/');
-  // click('a[href="/friends/new"]');
-  click('a[class="ember-view icon-user-add"]');
+  click('a[href="/friends/new"]');
 
   andThen(function(){
     assert.equal(currentPath(), 'friends.new');

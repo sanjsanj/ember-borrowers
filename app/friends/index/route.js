@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     sortBy: {
       refreshModel: true
     },
-    sortAscending: {
+    sortDescending: {
       refreshModel: true
     }
   },
