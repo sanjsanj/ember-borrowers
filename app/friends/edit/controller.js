@@ -1,4 +1,4 @@
-import FriendBaseController from './base-controller';
+import FriendBaseController from '../base-controller';
 
 export default FriendBaseController.extend({
   actions: {
