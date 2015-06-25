@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/sanjsanj/ember-borrowers.svg?branch=master)](https://travis-ci.org/sanjsanj/ember-borrowers)
 
+[![Code Climate](https://codeclimate.com/github/sanjsanj/ember-borrowers/badges/gpa.svg)](https://codeclimate.com/github/sanjsanj/ember-borrowers)
+
+[![Test Coverage](https://codeclimate.com/github/sanjsanj/ember-borrowers/badges/coverage.svg)](https://codeclimate.com/github/sanjsanj/ember-borrowers/coverage)
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
