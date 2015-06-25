@@ -1,12 +1,13 @@
 <nav>
   {{link-to "Ember-Borrowers" "index" class="main"}}
 
-  <input id="bmenu" class="burgercheck" type="checkbox">
-  <label for="bmenu" class="burgermenu"></label>
+  <!-- <input id="bmenu" class="burgercheck" type="checkbox">
+  <label for="bmenu" class="burgermenu"></label> -->
 
   <div class="menu">
     {{link-to "Dashboard" "index" class="icon-gauge"}}
     {{link-to "Friends" "friends" class="icon=users-1"}}
-    {{link-to "New Friend" "friends.new" class="icon-user-add"}}
+    {{link-to "New Friend" "friends.new" class="icon-user-add new-friend-link"}}
+    <!-- <a href="/friends/new" class="new-friend-link">New Friend</a> -->
   </div>
 </nav>

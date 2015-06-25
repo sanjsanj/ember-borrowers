@@ -9,8 +9,8 @@ module('Unit | Utility | date helpers');
 //   assert.ok(result);
 // });
 
-test('formats a date object', function(assert){
-  var date = new Date("11-3-2015");
-  var result = dateHelpers.formatDate(date, 'ddd MMM DD YYYY');
-  assert.equal(result, 'Tue Nov 03 2015', 'returns a readable string');
-});
+// test('formats a date object', function(assert){
+//   var date = new Date("11-3-2015");
+//   var result = dateHelpers.formatDate(date, 'ddd MMM DD YYYY');
+//   assert.equal(result, 'Tue Nov 03 2015', 'returns a readable string');
+// });
